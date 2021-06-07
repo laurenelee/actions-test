@@ -9,8 +9,7 @@ jobs:
     strategy:
       matrix:
         subreddit:
-          - javascript
-          - vuejs
+          - puppet
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
